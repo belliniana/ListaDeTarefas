@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exemplo de barra de navegação com Flexbox e notificações">
+    <meta name="keywords" content="barra, navegação, flexbox, HTML, CSS, notificações">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ana Luiza de Morais Bellini">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <div class="todo-container">
+        <h1>Lista de Tarefas</h1>
+
+        <div class="theme-selector">
+            <button id="light-theme-btn">Roxo Pastel</button>
+            <button id="dark-theme-btn">Roxo Dark</button>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="new-task-input" placeholder="Adicionar nova tarefa">
+            <button id="add-task-btn">Adicionar</button>
+        </div>
+
+        <textarea id="multi-task-input" placeholder="Adicionar várias tarefas (1 por linha)"></textarea>
+        <button id="add-multiple-btn" class="full-btn">Adicionar Tudo</button>
+
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
